@@ -427,11 +427,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #03C4EB;
+  color: #f34336;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #03C4EB;
+  color: #f34336;
 }
 
 #mobile-body-overly {
@@ -780,7 +780,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social a:hover {
-  color: #03C4EB;
+  color: #f34336;
 }
 
 #team .member .social i {
@@ -801,7 +801,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #03C4EB;
+  color: #f34336;
   float: left;
 }
 
@@ -811,8 +811,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #03C4EB;
-  border: 1px solid #03C4EB;
+  color: #f34336;
+  border: 1px solid #f34336;
   display: none;
   text-align: center;
   padding: 15px;
