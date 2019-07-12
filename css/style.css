@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url(../img/minapreta1.jpg) top center;
   background-size: cover;
+  background-position-x: 20%; 
 }
 
 
@@ -97,12 +98,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   #hero img {
    
     background: url(../img/minapreta1.jpg) right;
   }
-}
+} */
 
 #hero .hero-logo {
   margin: 20px;
