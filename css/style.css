@@ -96,6 +96,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 320px) {
+  #hero img {
+   
+    background: url(../img/minapreta1.jpg) right;
+  }
+}
+
 #hero .hero-logo {
   margin: 20px;
 }
@@ -617,8 +624,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe .subscribe-btn:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #f34336;
+  border: 2px solid #f34336;
 }
 
 /* Portfolio Section
@@ -713,7 +720,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #333333;
 }
 
-#testimonials .quote {
+#testimonials .quote{
   position: relative;
   background: #fff;
   padding: 60px;
@@ -721,6 +728,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 16px;
   font-style: italic;
   border-radius: 5px;
+}
+
+.aspas {
+  width: 15px;
+}
+
+.aspas.rotation {
+  transform: rotate(180deg)
 }
 
 #testimonials .quote b {
@@ -848,7 +863,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #03C4EB;
+  background: #f34336;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -856,7 +871,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #25d8fc;
+  background: #ff9e81;
+}
+
+.cvs{
+  background: #f34336;
+  border: #f34336;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.cvs :hover{
+  background: #ff9e81;
+  border: #f34336;
 }
 
 /*--------------------------------------------------------------
@@ -877,4 +905,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+
+#footer .credits a {
+  color: #ff9e81
 }
