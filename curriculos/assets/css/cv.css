@@ -1,10 +1,10 @@
 h1 {
-    color: #7D4899;
+    color: #111;
     font-size: 3rem;
 }
 
 h2, h3, span, #intro address, #intro address a{
-    color: #3A144D;
+    color: #111;
 }
 
 h2 {
@@ -18,17 +18,17 @@ h3 {
 
 h5 {
     font-weight: lighter;
-    color: #444;
+    color: #111;
     margin-top: 0;
     margin-bottom: 4px;
 }
 
 p {
-    color: #7E459B;
+    color: #111;
 }
 
 ul li{
-    color: #7E459B;
+    color: #111;
 }
 
 address a {
@@ -36,14 +36,14 @@ address a {
 }
 
 .background-DEBBDD {
-    background-color: #DEBBDD;
+    background-color: #ffdfd4;
     width: 100%;
     padding: 0.2rem 1rem;
 }
 
 /* #region header */
 header {
-    background-color: #7D4899;
+    background-color: #ff4040;
     min-height: 10vh;
     display: flex;
     justify-content: center;
@@ -224,7 +224,7 @@ main {
     align-items: flex-start;
 }
 #skills-list {
-    background-color: #EAD6E9;
+    background-color: #ffdfd4;
     min-height: calc(50% - 20vh);
     width: 100%;
     padding: 1vh 2vw;
@@ -239,14 +239,14 @@ main {
     align-items: center;
 }
 .point {
-    border: 1px solid #7E459B;
+    border: 1px solid #111;
     border-radius: 50%;
     height: 0.5rem;
     width: 0.5rem;
     margin-left: 0.5rem;
 }
 .has-point {
-    background-color: #7E459B;
+    background-color: #111;
 }
 /* #endregion */
 

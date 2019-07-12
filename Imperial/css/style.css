@@ -181,8 +181,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-services:hover {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
+  background: #f34336 ;
+  border: 2px solid #f34336 ;
 }
 
 /*--------------------------------------------------------------
@@ -318,9 +318,9 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
+/* .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
   color: #03C4EB;
-}
+} */
 
 .nav-menu ul {
   margin: 4px 0 0 15px;
@@ -479,7 +479,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title-divider {
   width: 50px;
   height: 3px;
-  background: #03C4EB;
+  background: #f34336;
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -542,24 +542,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .service-icon {
   float: left;
-  background: #03C4EB;
+  background: #f34336;
   padding: 16px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #f34336;
 }
 
 #services .service-icon i {
-  color: #fff;
+  color: #f34336;
   font-size: 24px;
 }
 
 #services .service-item:hover .service-icon {
-  background: #fff;
+  background: #f34336;
 }
 
 #services .service-item:hover .service-icon i {
-  color: #03C4EB;
+  color: #f34336;
 }
 
 #services .service-title {
@@ -705,7 +705,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #testimonials .profile h4 {
   font-weight: 700;
-  color: #03C4EB;
+  color: #111;
   margin-bottom: 5px;
 }
 

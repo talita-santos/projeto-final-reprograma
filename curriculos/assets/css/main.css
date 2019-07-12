@@ -16,13 +16,14 @@ a {
 
 /* #region footer */
 footer {
-    background-color: #7E459B;
-    min-height: 20vh;
+    background-color:#111;
+    min-height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10vh; 
+    margin-top: 20vh; 
+
 }
 footer address ul {
     padding: 0;

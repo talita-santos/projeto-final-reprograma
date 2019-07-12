@@ -158,7 +158,7 @@ main header img {
 }
 
 .student a {
-    background-color: #7E459B;
+    background-color: #ff4040;
     text-align: center;
 }
 
@@ -166,7 +166,7 @@ main header img {
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     border-radius: 1rem;
-    color: #E6CCE6;
+    color: white;
     /* font-size: 40px; */
     /* font-weight: 100; */
     padding: 2% 13%;
@@ -177,9 +177,9 @@ main header img {
 }
 
 .button:hover {
-    background: #DDBCDC;
+    background: #ff9e81;
     text-decoration: none;
-    color: #ff4040;
+    color: white;
 }
 
 /* #endregion */
